@@ -1,0 +1,22 @@
+.contacts {
+  // height: 100vh;
+  background: black;
+  color: white;
+
+  h3 {
+    letter-spacing: 2rem;
+    text-align: center;
+  }
+  .networks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+    align-items: center;
+
+    a {
+      min-width: 200px;
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,150 @@
+* body {
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  * {
+    font-family: league_gothic;
+    src: url(./../assets/league_gothic/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf);
+  }
+}
+
+.nav {
+  height: 35px;
+  width: 100%;
+  height: 30px;
+  z-index: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: black;
+}
+
+.nav a {
+  list-style: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.firstpage {
+  min-height: 100vh;
+  background: url("../media/photo-1498050108023-c5249f4df085.jfif") center/cover;
+  color: black;
+}
+
+.firstpage h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.firstpage h5 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.skillsbg {
+  background: black;
+}
+
+.skillsbg .skills {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.skillsbg .sk1 {
+  width: 50%;
+  height: 70%;
+  background: white;
+  -webkit-box-shadow: 0px 0px 3px 5px white;
+          box-shadow: 0px 0px 3px 5px white;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.skillsbg .sk1 h2 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.skillsbg .sk1 p {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.skillsbg .sk1 .progress {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.skillsbg .sk2 {
+  width: 50%;
+  height: 70%;
+  background: white;
+  -webkit-box-shadow: 0px 0px 3px 5px white;
+          box-shadow: 0px 0px 3px 5px white;
+  border-radius: 15px;
+}
+
+.skillsbg .sk2 h2 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.skillsbg .sk2 p {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.projects {
+  height: 100vh;
+}
+
+.contacts {
+  background: black;
+  color: white;
+}
+
+.contacts h3 {
+  letter-spacing: 2rem;
+  text-align: center;
+}
+
+.contacts .networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts .networks a {
+  min-width: 200px;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */

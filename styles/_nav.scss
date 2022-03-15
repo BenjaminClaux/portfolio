@@ -1,0 +1,17 @@
+.nav {
+  height: 35px;
+  width: 100%;
+  height: 30px;
+  z-index: 1000px;
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  a {
+    list-style: none;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
